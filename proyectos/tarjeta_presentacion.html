@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de presentacion</title>
+    <style>
+        body{
+            background: Snow;
+        }
+        section{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            position: relative;
+            width: 800px;
+            height: 600px;
+            background: Lavender;
+            margin-top: 5%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            overflow: hidden;
+        }
+        .photo{
+            display: flex;
+            position: absolute;
+            background: white;
+            width: 200px;
+            height: 200px;
+            margin-top: 80px;
+            border-radius: 50%;
+            z-index: 3;
+        }
+        .ocupacion{
+            display: flex;
+            position: absolute;
+            margin-top: 350px;
+        }
+        .ocupacion p{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            width: 100%;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .profesion{
+            display: flex;
+            position: absolute;
+            margin-top: 400px;
+        }
+        .profesion p{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            width: 100%;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .card img{
+            width:100%;
+            height: 60%;
+        }
+        .follow{
+            width: 800px;
+            height: 120px;
+            background: Plum;
+        }
+        .projetcs{
+            width: 800px;
+            height: 120px;
+            background: Thistle;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/220974/pexels-photo-220974.jpeg?cs=srgb&dl=pexels-pixabay-220974.jpg&fm=jpg" alt="">
+            <p>Bogota</p>
+        </div>
+        <div class="photo">
+
+        </div>
+        <div class="ocupacion">
+            <p><strong>Daniel Garcia</strong></p>
+        </div>
+        <div class="profesion">
+            <p>Frontend Developer</p>
+        </div>
+    </section>
+    <section>
+        <div class="follow">
+
+        </div>
+    </section>
+    <section>
+        <div class="projetcs">
+
+        </div>
+    </section>
+</body>
+</html>
